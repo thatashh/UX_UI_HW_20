@@ -34,3 +34,474 @@
     font-style: normal;
 
 }
+
+h1 {
+    color: #DC8D74;
+    font-family: neue_montrealbold;
+    font-size: 56px;
+}
+
+.ash {
+    font-family: neue_montrealbold;
+    font-size: 24px;
+}
+
+.jumbotron {
+    background: url(../images/NPS-Hero.jpg);
+    height: calc(100vh + 250px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+}
+
+.jumbo-content {
+    text-align: center;
+    width: 75%;
+    display: block;
+    margin: 0 10px;
+    min-width: 500px;
+    max-width: 1000px;
+    height: auto;
+}
+
+.jumbo-content h1 {
+    font-family: neue_montrealbold;
+    margin: 30px 0;
+    color: #DC8D74;
+}
+
+.jumbo-content h4 {
+    font-family: neue_montrealbold;
+    color: #49C0B5;
+    padding: 0px 35px;
+    display: inline-block;
+}
+
+.jumbo-content p{
+    font-family: usual;
+    font-size: 16px;
+    line-height: 180%;
+    margin: 0 auto;
+    padding: 0 12%;
+    padding-bottom: 10px;
+    color: #394B50;;
+}
+
+.jumbo-content-b {
+    padding-top: 10px;
+}
+
+.jumbo-content-a {
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
+p.hero-copy {
+    display: inline;
+    margin: 0 45px;
+    padding: 0 !important;
+}
+
+#case-study {
+    margin: 10%;
+}
+
+h3 {
+    font-family: neue_montrealbold;
+    font-size: 32px;
+    font-weight: 100;
+    color: #394B50;
+}
+
+.case-study-middle img {
+    margin-top: 10px;
+}
+
+.case-study-copy, .case-study-middle p, ul {
+    font-family: usual;
+    font-size: 16px;
+    line-height: 187%;
+    color: #638596;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    padding-top: 0;
+}
+
+div.case-study-middle {
+    text-align: center;
+}
+
+.other {
+    margin-top: 30px;
+}
+
+.col h1 {
+    padding: 10% 0 0 10%;
+}
+
+.container p {
+    padding: 5% 5% 0 0;
+    margin-left: 20px;
+}
+
+.col-protos {
+    padding: 5% 0;
+    text-align: center;
+}
+
+span {
+    color: #49C0B5;
+    font-size: 20px;
+    font-family: usual;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.no-italics {
+    font-style: normal;
+}
+
+.plotting-our-route {
+    margin-top: 10px;
+}
+
+.competitor, .heuristics, .cardsorting, .sitemap, .header-lofi, .footer-lofi, .secondary-nav, .park-cards, .style-tile, .hifi-wire, .mobile-hifi, .FAP-buttons, .helper {
+    padding: 6%;
+    max-width: 100%;
+    min-width: 100%;
+    align-items: center;
+} 
+
+.header-lofi, .footer-lofi {
+    padding-bottom: 0;
+}
+
+
+.hifi-one {
+    padding: 3%;
+}
+
+.hifi-two {
+    margin: 20px 0 50px 0;
+}
+
+
+.hifi-wire {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.heur-a, .col-park {
+    margin-top: 30px;
+    align-content: center;
+}
+
+.col-h {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.single {
+    width: 77%;
+}
+
+.double {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 77%;
+}
+
+.user-testing, .conclusion-takeaway {
+    padding-top: 7%;
+}
+
+.italics {
+    font-style: italic;
+    padding-bottom: 0;
+}
+
+.mobile-copy {
+    margin-top: 50px;
+}
+
+/* footer */
+
+button img {
+    width: 140px;
+    margin-right: 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: auto;
+    height: 600px;
+    background-color: #394B50;
+}
+
+#footerGrid {
+    display: grid;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+    max-width: 1200px;
+    grid-column-gap: 10em;
+    grid-template-rows: 75% 75%;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+    "GetinTouch footerConnect"
+    "left"
+    "copyright";
+}
+
+
+.GetInTouch {
+    display: block;
+    font-family: neue_montrealbold;
+    font-size: 56px;
+    color: #DC8D74;
+}
+
+
+.footerConnect {
+    display: block;
+    padding-top: 15px;
+    font-family: neue_montrealbold;
+    font-size: 32px;
+    color: #D3A5A0;
+    
+}
+
+#left p {
+    font-family: usual;
+    line-height: 197%;
+    font-size: 16px;
+    color: #FFF6E8;
+   
+}
+#right {
+    padding: 25px;
+    max-width: 200px;
+    height: 100%;
+}
+
+#left {
+    padding: 25px;
+}
+
+#copyright {
+    position: relative;
+    top: 160px;
+}
+
+#footerLinks {
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+#footerLinks a {
+    display: block;
+    font-family: usual;
+    text-decoration: none;
+    color: #49C0B5;
+}
+
+#footerLinks a:hover {
+    color: #FFF6E8;
+    transition: .25s;
+}
+
+
+.upArrow {
+    display: inline-block;
+    padding-right: 80px;
+    width: 100%;
+    position: relative;
+    bottom: 325px;
+}
+
+
+.upArrow img {
+    float: right;
+    height: 150px;   
+}
+
+button.footerCTA {
+    display: inline-block;
+    background-color: transparent;
+    border: transparent;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+    font-family: neue_montrealbold;
+    font-size: 24px;
+    cursor: pointer;
+    color: #F4D292;
+}
+
+
+  
+
+@media only screen and (max-width: 1000px) {
+    
+#projectsGrid {
+    padding: 50px 8%;
+    margin-bottom: 1000px;
+    grid-template-rows: 5% 40% 40% 40%;  
+    grid-template-columns: 5fr;
+    grid-template-areas: 
+    "projectTabs"
+    "featuredNPS"
+    "featuredAHA"
+    "featuredTravelCoin";
+}
+
+#projectsGridArea {
+    background-image: no-repeat;
+    background-position: center;
+    background-size: 20%;   
+}
+
+#projectsGrid h2 {
+    font-size: 40px;
+    line-height: 116%;
+}
+
+#projectsGrid p {
+    font-size: 14px;
+    top: 8px;
+    width: auto;
+}
+
+#featuredNPS, #featuredAHA, #featuredTravelCoin {
+    margin-bottom: 300px; 
+}
+
+div.NPS, div.TravelCoin, div.AHA {
+    position: relative;
+    width: auto;
+    top: 720px;
+    float: left;
+    padding-left: 0;
+}
+
+.brand {
+    position: relative;
+    top: -120px;
+    margin: 0 auto;
+    width: 1100px;
+    height: 500px;
+    padding: 0 25px 25px 25px;
+    text-align: center;
+    font-family: neue_montrealbold;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 220%;
+    letter-spacing: .5px;
+    color: #FFF6E8; 
+}
+
+#featuredNPS button, #featuredAHA button, #featuredTravelCoin button {
+    margin-left: 1%;
+    margin-top: 50px;
+}
+
+#featuredAHA button {
+    color: #F4D292;
+}
+
+#featuredTravelCoin p {
+    color: #394B50;
+}
+
+#featuredTravelCoin h2, #featuredTravelCoin button {
+    color: #8886B9;
+}
+
+#aboutMe2 {
+    padding: 50px 8%;
+    display: grid;
+    column-gap: 5em;
+    row-gap: 2em;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 2fr;
+    grid-template-areas: 
+    "profilePhoto" 
+    "profileContent"
+    "familyContent"
+    "familyPhoto";
+}
+
+#expSkills {
+    padding: 50px 8%;
+    display: grid;
+    column-gap: 3em;
+    row-gap: 1em;
+    margin: 200px 0px;
+    grid-template-rows: 60% 40%;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "experience"
+    "Skills Skills";
+}
+
+#expSkills a {
+    position: relative;
+    margin-top: 80px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: auto;
+    height: 900px;
+    background-color: #394B50;
+}
+
+#footerGrid {
+    display: grid;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+    max-width: 13000px;
+    row-gap: 30px;
+    grid-template-rows: 40% 25% 25% 15%;
+    grid-template-columns: 75%;
+    grid-template-areas: 
+    "GetinTouch"
+    "footerConnect"
+    "left"
+    "copyright";
+}
+
+#copyright {
+    position: relative;
+    top: 360px;
+}
+
+button.footerCTA {
+    display: inline-block;
+    background-color: transparent;
+    border: transparent;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+    font-family: neue_montrealbold;
+    font-size: 18px;
+    cursor: pointer;
+    color: #F4D292;
+}
+
+}

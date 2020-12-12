@@ -4,17 +4,417 @@
     <link rel="stylesheet" href="https://use.typekit.net/sed6pze.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/nav.css" rel="stylesheet" type="text/css">
+    <link href="../UX_UI_HW_20/css/style.css" rel="stylesheet" type="text/css">
+    <link href="../UX_UI_HW_20/css/nav.css" rel="stylesheet" type="text/css">
        <title>UX/UI Homework 20</title>
    </head>
    <body>
-
-
-
-   </body>
+      <header id="navigation">
+         <div class="inline-block" class="logo">
+         <a href="../UX_UI_HW_19/index.html">   
+         <p>that<span class="ash">ash</span></p>
+         </a>
+         </div>  
+         <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/nav icons/close-button.svg" alt="closebutton"></a>
+          <a href="../UX_UI_HW_19/index.html">Home</a>
+          <a href="../UX_UI_HW_19/aboutme.html">About</a>
+          <a href="../UX_UI_HW_19/index.html">Works</a>
+          <a href="#">Connect</a>
+         </br>
+          <a class="sidebarBottom" href="https://www.linkedin.com/in/ashleymosqueda/" target="_blank">LinkedIn</a>
+          <a class="sidebarBottom" href="https://www.facebook.com/ash.mosqueda.7/" target="_blank">Facebook</a>
+          <a class="sidebarBottom"href="https://www.instagram.com/that.ashh/" target="_blank">Instagram</a>
+    
+        </div>
+       
+        <span id="hamburger" onclick="openNav()">
+          <svg x="0px" y="0px"
+          viewBox="0 0 326 178" height="17" width="32">
+       <style type="text/css">
+          .st0{fill:#49C0B5;}
+       </style>
+          <path class="st0" d="M312.5,26.9H13.7c-7.2,0-13-5.8-13-13s5.8-13,13-13h298.8c7.2,0,13,5.8,13,13S319.7,26.9,312.5,26.9z"/>
+           <path class="st0" d="M312.5,177.2H13.7c-7.2,0-13-5.8-13-13s5.8-13,13-13h298.8c7.2,0,13,5.8,13,13S319.7,177.2,312.5,177.2z"/>
+       </svg></span>
+     </header>  
+     <div class="jumbotron">
+        <div class="jumbo-content">
+      <h1 class="display-4">National Parks</br>Service Redesign</h1>
+      <p>Cluttered and filled with tons of insightful information, the National Parks Service Website needed a way for users to easily access searchable information and navigate the site with ease. Solution? Create a minimal, yet intuitive site for users to access anywhere.</p>
+      </br>
+   </br>
+      <h4>Role</h4>
+      <p>Research, UI Design, Infomation Architecture, Wireframing, Prototyping, Usability Testing</p>
+        </br></br>
+      <div class="jumbo-content-a">
+         <h4>Timeline</h4>
+         <h4>Deliverables</h4>
+         <h4>Collaborators</h4>
+         <h4>Category</h4>
+      </div>
+      <div class="jumbo-content-b">
+         <p class="hero-copy">3 Weeks</p>
+         <p class="hero-copy">Desktop, Mobile</p>
+         <p class="hero-copy">Annie McGregor</p>
+         <p class="hero-copy">Recreation</p>
+      </div>
+      </div>
+    </div>
+    <section id="case-study">
+          <img class="Research" src="images/Research.png">
+      <div class="explore">
+         <div class="row">
+           <div class="col">
+             <h1>Explore</br>& Discover</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+             <p class="case-study-copy">To begin the trek of redesigning the NPS.gov website, Annie and I began brainstorming and gathering information of different users we could empathize with. We developed 2 proto-personas based purely on assumptions and prior experience. Our first persona Jonathan, targets the avid outdoorsman and national park goer, while Cindy, our occasional working professional and mother, targets those with an recreational interest for the outdoors. 
+             </br></br>
+             These serve as a starting point for us to reference as we consider possible user solutions and challenges in developing the information architecture later on.</p>
+           </div>
+         </div>
+         <div class="row justify-content-center">
+            <div class="col-protos col-lg-6 col-sm-12">
+            <img class="protos" src="images/Proto-JP.png">
+            </div>
+            <div class="col-protos col-lg-6 col-sm-12">
+            <img class="protos" src="images/Proto-Cindy.png">
+            </div>
+         </div>
+      </div>
+      <div class="case-study-middle">
+      <p>Next, we asked ourselves a simple question.</p></br>
+      <h3>Why do users visit the National Parks website?</h3></br>
+      <img src="images/teal.png">
+      </div>
+      <div class="plotting-our-route">
+         <div class="row">
+           <div class="col">
+             <h1>Plotting</br>Our</br>Route</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+             <p class="case-study-copy">To answer this,  we defined a clear objective to follow, and narrowed down our user path for testing and future flows.
+             </br></br>
+               <span>Objectives</span></br>
+               Discover how users navigate the NPS.gov website to locate a list of all the national parks in Utah, access the FAQ page, and learn more about obtaining passes.
+            </br></br>  
+               <span>Usability Tasks</span></br>
+               <ul>
+                 <li>1. Find the list of national parks serviced by NPS in the state of Utah.</li>
+                 <li>2. Find out the cost of an annual pass.</li>
+                 <li>3. Locate the FAQ page and find out how to obtain a park entrance pass.</li>
+               </ul>
+               </p>
+           </div>
+         </div>
+      </div>  
+      <img class="Definition-Synthesis" src="images/Definition-Synthesis.svg">  
+      <div class="analyze-test">
+         <div class="row">
+           <div class="col">
+             <h1>Analyze</br>& Test</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+             <p class="case-study-copy">As hands-on researchers, we analyzed competitors and pinpointed user issues firsthand. Through competitor analysis and heuristics evaluation, we drew conclusions on what worked and what didn't for existing interfaces. 
+            </p>
+           </div>
+           <div class="row justify-content-center">
+            <div class="col-comp justify-content-center">
+            <img class="competitor" src="images/Competitor.svg">
+            </div>
+            <p class="single case-study-copy">
+               We then reached out to our networks and conducted 5 short usability tests each lasting under 10 minutes. This short amount of time gave us an idea of inital pathways users take and defined problems they faced navigating the current interface. We compiled the annotations together along with the previous evaluation.
+            </p>
+            <div class="row">
+               <div class="col-comp col-lg-6 col-md-4 col-sm-12">
+               <img class="heuristics heur-a" src="images/Heuristic1.svg">
+               </div>
+               <div class="col-comp col-lg-6 col-md-4 col-sm-12">
+               <img class="heuristics" src="images/Heuristic2.svg">
+            </div>
+         </div>
+       </div>  
+      </div>
+      <div class="case-study-middle other">
+         <p>Have we found the answer?</p></br>
+         <h3>Let’s take a look.</h3></br>
+         <img src="images/teal.png">
+      </div>
+         <div class="digging-deeper">
+            <div class="row">
+              <div class="col">
+                <h1>Digging</br>Deeper</h1>
+              </div>
+              <div class="container col-lg-8 col-md-8 col-sm-12">
+               <p class="case-study-copy">Based on the testing and analysis, we discovered the reasons behind why people visit the NPS site. Visitors needed  resources regarding their concerns when visiting a National Park. They also came to the site to find possible inspirations in planning future activities. Lastly, they wanted detailed information before actually making their way to a park. For a more realistic approach, we also put ourselves in the minds of our proto-personas, Johnathan and Candice. 
+              </br></br>  
+                 <span>Possible Questions Asked</span></br>
+                 <ul class="italics">
+                   <li>What’s the current weather situation? </li>
+                   <li>Are guided tours expensive?</li>
+                   <li>Are campgrounds even open?</li>
+                   <li>What amenities will there be for me?</li></br>
+                   <span class="no-italics">Problems Discovered</span>
+                 </ul>
+                 <ul>
+                 <li>• Most users had trouble locating the FAQ page and recommended that  
+                  it be placed in the main navigation.</li>
+                 <li>• National park images on state page are too small and need to be
+                  enlarged for better viewing.</li>
+                 <li>• Users found too much content on pages overwhelming and preferred
+                  a more condensed version of information</li>
+                 </ul>
+                 </p>
+              </div>
+            </div>
+         </div> 
+         <img class="Ideation" src="images/Ideation.svg">  
+         <div class="organized-chaos">
+            <div class="row">
+              <div class="col">
+                <h1>Organized</br>Chaos</h1>
+              </div>
+              <div class="container col-lg-8 col-md-6 col-sm-12">
+                <p class="case-study-copy">In order to understand the content of the site, we organized the existing navigations of both headers and footers based on Location, Alphabet, Time, Category, and Hierarchy (implementing those that apply, of course). 
+                </br></br>
+                Collectively we decided what information to keep, what to eliminate, and how we can combine certain elements into a more intuitive navigation. Similar to the previous process we also conducted a quick heuristic evaluation of both navigations. 
+               </p>
+              </div>
+              <div class="row justify-content-center">
+               <div class="col-cardsort justify-content-center">
+               <img class="cardsorting" src="images/Cardsorting.svg">
+               </div>
+               <p class="single case-study-copy">
+                  Referencing our proto-personas and addressing our key findings, we produced a reorganized sitemap with defined primary and secondary navigations.
+               </p>
+               <div class="row justify-content-center">
+                  <div class="col-sitemap justify-content-center">
+                  <img class="sitemap" src="images/Sitemap.svg">
+                  </div>
+               </div>
+            </div>
+          </div>    
+          <div class="case-study-middle other">
+            <p>Now for the fun part.</p></br>
+            <h3>Building the foundation.</h3></br>
+            <img src="images/teal.png">
+            </div>   
+            <p class="double case-study-copy">
+               Based on our collaborative research, we individually began the journey of creating new wireframes of the NPS site. First, I focused on the redesign of the header and footer navigations since we recently reorganized it's structure. Minimal, easy to navigate, navigations were the focus here. To address user's frustration of locating important links I made the decision to create a secondary menu option where all links are easily accessible to minimize clutter and overload of information.
+            </p> 
+            <div class="row justify-content-center">
+               <div class="col-head-lofi justify-content-center">
+                  <img class="header-lofi" src="images/header-lofi.svg">
+               </div>  
+               <div class="col-lofi justify-content-center">
+                  <img class="footer-lofi" src="images/footer-lofi.svg">
+               </div>
+               <div class="col-lofi justify-content-center">
+                  <img class="secondary-nav" src="images/secondary-nav.svg">
+               </div>  
+            </div>  
+         <div class="keeping-it-simple">
+               <div class="row">
+                 <div class="col">
+                   <h1>Keeping</br>It Simple</h1>
+                 </div>
+                 <div class="container col-lg-8 col-md-8 col-sm-12">
+                   <p class="case-study-copy">Simplicity played a key role in the redesign of the website. Adding UI style elements such as cards and carousels to replace certain informational elements kept the site free of overwhelming amounts of information, filtered topics by categories and related events, and allowed for a more appealing representation of activities and events. Making a main hero image with a call to action button allows users to focus on their designated task of finding a park and learning more about the park of choice. 
+                  </p>
+                 </div> 
+                 <div class="row">
+                     <div class="col-park col-lg-4 col-md-6 col-sm-12">
+                     <img class="park-cards" src="images/park-cards.svg">
+                     </div>
+                     <div class="col-park col-lg-8 col-md-6 col-sm-12">
+                     <img class="park-cards park-a" src="images/FAP-hero.svg">
+                     </div>
+                  <p class="double case-study-copy">
+                     To maintain the NPS branding, I collaborated with Annie to create a UI style tile that served as a guide with our combined inspiration for the new look and feel of the site. Drawing from the NPS logo and nature elements, the UI design is minimal yet carries out a feel for exploration and adventure with a touch of bright colors for contrast.</p>
+               </div> 
+               <div class="col justify-content-center">
+                  <div class="col-style col-lg-12 col-md-12 col-sm-12">
+                  <img class="style-tile" src="images/StyleTile.svg">
+                  </div>
+               </div>   
+         </div>   
+         <img class="Prototyping" src="images/Prototyping.svg">    
+        </div>   
+        <div class="high-fidelity">
+         <div class="row">
+           <div class="col">
+             <h1>High</br>Fidelity</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+             <p class="case-study-copy">Within the high-fidelity prototype, users can navigate the site to find a park and explore current activities and events. Users can interact with the map as well to locate a park. 
+            </p>
+           </div>
+            <div class="hifi-one col-lg-4 col-md-4 col-sm-12">
+            <img class="hifi-wire heur-a" src="images/Hifi-A.svg">
+            </div>
+            <div class="hifi-two col-lg-4 col-md-4 col-sm-12">
+            <img class="hifi-wire" src="images/Hero-pages.svg">
+            </div>
+            <div class="hifi-three col-lg-4 col-md-4 col-sm-12">
+               <img class="hifi-wire" src="images/Arches-info.svg">
+            </div>
+      </div>
+      <div class="access-anywhere">
+         <div class="row">
+           <div class="col">
+             <h1>Access</br>Anywhere</h1>
+           </div>
+           <div class="container col-lg-8 col-md-6 col-sm-12">
+             <p class="case-study-copy">Of course, with a responsive design, changes were implemented for mobile users.</p>
+           </div>
+           <div class="mobile-copy col-lg-4 col-md-4 col-sm-12">
+            <p class="case-study-copy">The subscription now comes up as a small overlay when a user enters the main NPS getaway page. From there they can interact with the form.</p>
+            <div class="mobile-one col-lg-12 col-md-12 col-sm-12">
+               <img class="mobile-hifi" src="images/mobile-one.svg">
+            </div>
+            </div>
+            <div class="mobile-copy col-lg-4 col-md-4 col-sm-12">
+            <p class="case-study-copy">Find A Park’s dropdown menu was turned into the native iOS scrolling menu in order to maintain the minimal design. </p>
+            <div class="mobile-two col-lg-12 col-md-12 col-sm-12">
+               <img class="mobile-hifi" src="images/mobile-two.svg">
+            </div>
+            </div>
+            <div class="mobile-copy col-lg-4 col-md-4 col-sm-12">
+            <p class="case-study-copy">Due to limited space on mobile screens, elements such as buttons were stacked on top of one another.</p>
+            <div class="mobile-three col-lg-12 col-md-12 col-sm-12">
+               <img class="mobile-hifi" src="images/mobile-three.svg">
+            </div>        
+            </div>
+         </div>  
+         <div class="row">
+         <div class="container col-lg-4 col-md-6 col-sm-12">
+            <div class="mobile-four col-lg-12 col-md-12 col-sm-12">
+               <img class="mobile-hifi" src="images/mobile-four.svg">
+            </div>
+          </div>
+          <div class="container col-lg-4 col-md-6 col-sm-12">
+            <div class="mobile-five col-lg-12 col-md-12 col-sm-12">
+               <img class="mobile-hifi" src="images/mobile-five.svg">
+            </div>
+          </div>
+          <div class="container col-lg-4 col-md-6 col-sm-12">
+            <div class="mobile-six col-lg-12 col-md-12 col-sm-12">
+               <img class="mobile-hifi" src="images/mobile-six.svg">
+            </div>
+          </div>
+          </div>
+          <p class="double case-study-copy">
+            The map page for choosing which parks are located in Utah was condensed to fill 50% of the page. 
+          </br></br>
+            Micro-interactions and transitions were also added to create delightful interactions for users and to reinforce our solutions of creating and intuitive, yet easy to navigate interface.</p>
+         </div> 
+      </div>   
+      <img class="user-testing" src="images/User-Testing.svg">  
+      <div class="testing-outcomes">
+         <div class="row">
+           <div class="col">
+             <h1>Final</br>Test</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+            <p class="case-study-copy">With a visually appealing desktop and mobile version ready to go, we reconvened as a team to create a Hi-Fi Usability Testing plan for 6 participants. Like all designs, we want to make sure it functions smoothly without any dead ends.  
+            </br></br>
+            Our goal is to see if users can easily navigate the Find a Park function and find other important information.
+           </br></br>  
+              <span>Objectives</span></br>
+              <ul>
+                <li>• Can a user navigate to the Utah page using the Find a Park block?</li>
+                <li>• Can users find information on Arches National Park?</li>
+                <li>• Can users find information on the Annual Park Pass?</li>
+                <li>• We want to test if users find the Find a Park function intuitive and
+                  seamless without dead ends.</li>
+              </ul>
+              </p>
+          </div>
+         </div>
+         <div class="col justify-content-center">
+            <div class="col-FAP col-lg-12 col-md-12 col-sm-12">
+            <img class="FAP-buttons" src="images/FAP-buttons.svg">
+            </div>
+         </div>   
+         <div class="row">   
+            <div class="col-helper col-lg-6 col-md-6 col-sm-12">
+                  <img class="helper" src="images/helper-one.svg">
+            </div> 
+            <div class="col-helper col-lg-6 col-md-6 col-sm-12">
+                  <img class="helper" src="images/helper-two.svg">
+            </div>
+         </div>  
+      </div> 
+      <div class="case-study-middle other">
+         <p>Like all things, </p></br>
+         <h3>Everything isn't perfect.</h3></br>
+         <img src="images/teal.png">
+      </div>
+      <div class="road-block">
+         <div class="row">
+           <div class="col">
+             <h1>Road</br>Block</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+             <p class="case-study-copy">Users found dead ends in the navigation, complicated animations in the scrollable dropdown menu on the Find A Park page, and felt confused when it came to navigating the map on the mobile version.
+             </br></br>  
+            I fine tuned the dead ends in the prototype, changed the scrollable animation from a click to a drag interaction to simulate scrolling, and added helper interactions for users on the map page.
+            </p>
+           </div>   
+         </div>  
+      </div> 
+      <img class="conclusion-takeaway" src="images/Conclusion.svg">  
+      <div class="journeys-end">
+         <div class="row">
+           <div class="col">
+             <h1>Journey's</br>End</h1>
+           </div>
+           <div class="container col-lg-8 col-md-8 col-sm-12">
+            <p class="case-study-copy">The new redesign highlights gorgeous landscapes of the parks inviting users to learn more and explore different activities, events, and news associated with our nation's parks. 
+            </br></br>
+            With our journey at its end, here are a few awesome takeaways —
+           </br></br>  
+            <span>Users Are The Backbone</span></br>
+            Drawing from our challenges and goals of users is the backbone in any project. Referencing the research we gathered and listening to the feedback from testing all contributed to the successful redesign of a responsive website.   
+           </br></br>  
+           <span>Future Opportunities</span></br>
+            With more time, I'd like to build out the rest of the site, possibly with more details and facts pertaining to the parks. Also build on the educational pages to see how users looking for educational opportunities can sign up and register for future events for their organization or school.
+          </p>
+           </div>   
+         </div>  
+      </div> 
+   </section>
+   <footer>
+      <section id="footerGrid">
+         <div id="left" class="footerGridArea">
+            <div class="GetInTouch" data-aos="fade-right">Get In Touch!</div></br>
+            <p data-aos="fade-right" data-aos-delay="100">I’d love to chat more about my work, interesting ideas, and possible collaborations.</p>
+            <button class="footerCTA" data-aos="fade-right" data-aos-delay="200">
+               <img src="images/CTA-Button.png">
+               ashmos17@gmail.com
+            </button>
+            <p id="copyright">© 2020 Ashley Mosqueda</p>
+         </div>
+         <div id="right" class="footerGridArea">
+            <div class="footerConnect" data-aos="fade-right">Connect</div></br></br>
+            <div id="footerLinks" data-aos="fade-right" data-aos-delay="100">  
+            <a href="https://www.linkedin.com/in/ashleymosqueda/" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/ash.mosqueda.7/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/that.ashh/" target="_blank">Instagram</a>
+          </div>   
+         </div>   
+      </section>
+         <div class="upArrow">
+            <a href="#navigation" class="scroll"><img src="images/Up-Arrow.png"></a>
+         </div>
+   </footer>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   <script src="/UX_UI_HW_19/js/index.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="dist/clipboard.min.js"></script>
+   <script src="js/index.js"></script>
+   </body>
 </html>
